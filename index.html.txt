@@ -1,0 +1,25 @@
+Your complete **Crystal Laundry Service** website is ready — a premium, fully responsive, single-page site built with pure HTML5, CSS3, and vanilla JavaScript. No frameworks, no build step.
+
+## What's included
+
+**Design** — Crystal blue / white / navy palette, custom crystal SVG logo, hero with slow zoom background and gradient overlay, rounded cards, hover lifts, reveal-on-scroll animations, and a mobile slide-in navigation menu.
+
+**Sections** — Sticky nav with scrollspy · Hero with trust indicators · 6 service cards (with images, icons, sample prices) · Pricing table · 4-step "How It Works" · "Why Choose Us" · Demo-marked testimonials · Booking form · About · FAQ accordion · Contact cards · Full footer with live privacy/terms modals.
+
+**Interactivity (all working)** —
+- Booking form with full validation, per-field error messages, past-date blocking, and a "different delivery address" toggle
+- **Automatic price estimate** driven by an editable `CONFIG.serviceRates` object at the top of `script.js`
+- "Book This Service" buttons that pre-select the service in the form
+- Demo bookings saved to `localStorage`, with a confirmation modal that **honestly states** it's a demo — no fake "sent to business" claims
+- Floating WhatsApp button (configure the real number in `CONFIG.whatsappNumber`), back-to-top button, toast notifications, smooth scrolling
+
+**Honesty built in** — all prices carry "sample" tags, reviews carry "placeholder" tags, contact details carry "editable placeholder" badges, and the README explains exactly how to replace them and how to connect a backend (`CONFIG.backendEndpoint`) for real booking storage and notifications.
+
+**To run:** open `index.html` directly, or `python -m http.server 8000` inside the folder.
+
+One note: the demo images are stock photos — swap in the business's real photos before launch (keep the same filenames and nothing else needs to change).
+
+
+
+
+
